@@ -1,11 +1,11 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from "vitest";
 
-import { shuffle, shuffleUnique } from '../src/index';
+import { shuffle, shuffleUnique } from "../src/index";
 
 const array = [1, 2, 3, 4, 5];
 
-describe('shuffly', () => {
-  it('shuffle', () => {
+describe("shuffly", () => {
+  it("shuffle", () => {
     const shuffledArray = shuffle(array);
 
     expect(Array.isArray(shuffledArray)).toBe(true);
@@ -13,7 +13,7 @@ describe('shuffly', () => {
     expect(shuffledArray).not.toEqual(array);
   });
 
-  it('shuffleUnique', () => {
+  it("shuffleUnique", () => {
     const shuffledArray = shuffleUnique(array);
 
     expect(Array.isArray(shuffledArray)).toBe(true);

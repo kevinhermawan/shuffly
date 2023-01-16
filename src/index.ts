@@ -1,2 +1,2 @@
-export { shuffle } from './shuffle';
-export { shuffleUnique } from './shuffleUnique';
+export { shuffle } from "./shuffle";
+export { shuffleUnique } from "./shuffleUnique";
