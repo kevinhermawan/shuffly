@@ -1,7 +1,7 @@
 {
   "name": "shuffly",
   "description": "A JavaScript utility for shuffling arrays",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
