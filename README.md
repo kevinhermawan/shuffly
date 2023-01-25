@@ -7,6 +7,7 @@ Shuffly is a JavaScript utility that provides various functions for shuffling ar
 ## Features
 
 - Supports Fisher-Yates & Sattolo algorithms
+- Supports Deno via NPM
 - Zero dependencies
 
 ## Installation
@@ -17,12 +18,31 @@ To install `shuffly`, run the following command:
 npm install shuffly
 ```
 
+**NPM**
+
+```
+npm install shuffly
+```
+
+**Yarn**
+
+```
+yarn add shuffly
+```
+
+**pnpm**
+
+```
+pnpm add shuffly
+```
+
 ## Usage
 
 ### shuffle
 
 ```ts
-import { shuffle } from 'shuffly';
+import { shuffle } from "shuffly";
+// import { shuffle } from "npm:shuffly"; // (for Deno)
 
 const array = [1, 2, 3, 4, 5];
 const shuffledArray = shuffle(array);
@@ -45,7 +65,8 @@ shuffle<T>(array: T[]): T[]
 ### shuffleUnique
 
 ```ts
-import { shuffleUnique } from 'shuffly';
+import { shuffleUnique } from "shuffly";
+// import { shuffleUnique } from "npm:shuffly"; // (for Deno)
 
 const array = [1, 2, 3, 4, 5];
 const shuffledArray = shuffleUnique(array);
