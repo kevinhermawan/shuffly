@@ -14,10 +14,6 @@ Shuffly is a JavaScript utility that provides various functions for shuffling ar
 
 To install `shuffly`, run the following command:
 
-```
-npm install shuffly
-```
-
 **NPM**
 
 ```
