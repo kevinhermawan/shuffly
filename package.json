@@ -2,7 +2,7 @@
   "type": "module",
   "name": "shuffly",
   "description": "A JavaScript utility for shuffling arrays",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -47,5 +47,8 @@
     "fisher-yates",
     "knuth-shuffle",
     "sattolo"
-  ]
+  ],
+  "dependencies": {
+    "shuffly": "^0.1.1"
+  }
 }
