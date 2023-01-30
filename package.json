@@ -3,7 +3,7 @@
   "name": "shuffly",
   "description": "A JavaScript utility for shuffling arrays",
   "version": "0.1.1",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "dev": "rollup -c -w",
