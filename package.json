@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "shuffly",
   "description": "A JavaScript utility for shuffling arrays",
   "version": "0.0.5",
