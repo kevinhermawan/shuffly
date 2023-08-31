@@ -2,7 +2,7 @@
   "type": "module",
   "name": "shuffly",
   "description": "A JavaScript utility for shuffling arrays",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
